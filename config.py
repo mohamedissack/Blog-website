@@ -33,8 +33,8 @@ class ProdConfig(Config):
     '''
     Production configuration for child class
     '''
-class TestConfig(Config):
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:12345@localhost/blog'
+# class TestConfig(Config):
+#     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:12345@localhost/blog'
     
 
 class DevConfig(Config):
