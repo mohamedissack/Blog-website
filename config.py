@@ -7,7 +7,7 @@ class Config:
     SECRET_KEY='cSZVa45zc7P5pcLwPwKWsQ'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     UPLOADED_PHOTOS_DEST = 'app/static/photos'
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:12345@localhost/blog'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:12345@localhost/blogpost'
 
     # email configurations
     MAIL_SERVER = 'smtp.gmail.com'
@@ -15,7 +15,8 @@ class Config:
     MAIL_USE_TLS = True
     MAIL_USERNAME = 'mohamedissack7573@gmail.com'
     MAIL_PASSWORD = 'Salah4580'
-    SUBJECT_PREFIX = 'Personal Blog'
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
+
 
     # simple mde configurations
     SIMPLEMDE_JS_IIFE = True
@@ -39,7 +40,7 @@ class ProdConfig(Config):
 
 class DevConfig(Config):
 
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:12345@localhost/blog'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:12345@localhost/blogpost'
     
     DEBUG = True   
 
