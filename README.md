@@ -30,7 +30,7 @@ In your terminal:
   $ git clone https://github.com/mohamedissack/blog-website
   $ cd blog-app
 
-Running the Application
+## Running the Application
 Install virtual environment using $ python3.8 -m venv --without-pip virtual
 
 Activate virtual environment using $ source virtual/bin/activate
