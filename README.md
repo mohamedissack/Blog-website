@@ -67,7 +67,7 @@ The blog doesn't meet all the user's stories/needs.
 The user may have some difficulty in profile handling and management since it's still under development.
 
 ## live link:
-here is a working live link:
+here is a working live link: https://blogpost5000.herokuapp.com/
 
 ## License
 MIT License
