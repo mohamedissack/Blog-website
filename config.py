@@ -23,10 +23,6 @@ class Config:
     # SIMPLEMDE_USE_CDN = True
 
 
-    # @staticmethod
-    # def init_app(app):
-    #     pass
-
 class ProdConfig(Config):
     SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
 
