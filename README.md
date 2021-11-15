@@ -44,7 +44,7 @@ Create a start.sh file in the root of the folder and add the following code:
   export MAIL_USERNAME=<your-email-address>
   export MAIL_PASSWORD=<your-email-password>
   export SECRET_KEY=<your-secret-key>
-Edit the configuration instance in manage.py by commenting on production instance and uncommenting development instance
+Edit the configuration instance in manage.py by commenting on production instance and un commenting development instance
 
 To run the application, in your terminal:
 
@@ -68,7 +68,7 @@ The user may have some difficulty in profile handling and management since it's 
 
 
 
-# License
+## License
 MIT License
 
 Copyright (c) 2020 Mohamed Issack
